@@ -180,3 +180,77 @@ p {
 .btn1:hover {
 	background: #d9860e;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+	width: 960px;
+    }
+
+    .skill-text {
+    	width: auto;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.logo {
+		padding-bottom: 150px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 641px;
+	    margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+	    margin-top: 15px;
+	    width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.container {
+		width: 320px;
+	}
+}
