@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<header id="header" class="header">
 		<div class="container">
-			<img src="img/logo1.png" alt="WAYUP" class="logo">
+			<img src="img/logo1.png" alt="WAYUP" class="logo animated fadeInDown">
 			<div class="wrapper">
 				<div class="offer">
 					<h1 class="title">
@@ -20,16 +21,16 @@
 					<p class="intro">
 						Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
 					</p>
-					<a href="#" class="btn">Двигаться к мечте!</a>
+					<a href="#" class="btn" id="btn">Двигаться к мечте!</a>
 				</div>
-				<img src="img/desktop1.png" alt="Code desktop" class="desktop">
+				<img src="img/desktop1.png" alt="Code desktop" class="desktop animated fadeInRight">
 			</div>
 		</div>
 	</header>
 	<section id="learn" class="learn">
 		<div class="container">
 			<h2 class="section-title">Что меня ждёт впереди</h2>
-			<div class="skills">
+			<div class="skills animated">
 				<div class="skill">
 					<h3 class="skill-title">
 						Свободное время
@@ -58,7 +59,7 @@
 		</div>
 	</section>
 	<section id="mail" class="mail">
-			<h2 class="section-title">Форма заказа билета в будущее</h2>
+			<h2 class="section-title animated">Форма заказа билета в будущее</h2>
 			<form action="#" class="form">
 				<input type="name" placeholder="Имя" name="Имя" class="input" required>
 				<input type="email" placeholder="E-mail" name="E-mail" class="input" required>
@@ -75,5 +76,9 @@
 			</p> 
 		</div>
 	</footer>
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="main1.js"></script>
+
 </body>
 </html>
